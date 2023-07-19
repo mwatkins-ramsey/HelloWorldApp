@@ -2,8 +2,6 @@
 services:
   app:
     build:
-      args:
-        VSS_NUGET_TOKEN: ${VSS_NUGET_TOKEN}
       dockerfile: Dockerfile
     ports:
       - "7777:443"
